@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>chapter 14 list table form of css</title>
+    <link rel="stylesheet" href="./list,table,form.css"/>
+</head>
+<body>
+    <h1>poetry workshops</h1>
+    <p>we will be conducting a number of poetry workshops and symposiums throughout the year</p>
+    <p>please note that the following events are free to numbers:</p>
+    <ul>
+        <li>a poetry prespective</li>
+        <li>walt whitman at war</li>
+        <li>found poems and outsider poetry</li>
+    </ul>
+    <table>
+        <tr class="head">
+            <th></th>
+            <th>new york</th>
+            <th>chicago</th>
+            <th>san fransico</th>
+        </tr>
+        <tr>
+            <th>a poetic prespective</th>
+            <td>sat, 4 feb 2012<br />11am-2pm</td>
+            <td>sat, 3 mar 2012<br />11am-2pm</td>
+            <td>sat, 17 mar 2012<br />11am-2pm</td>
+        </tr>
+        <tr class="even">
+             <th>walt whitman at war</th>
+             <td>sat, 7 apr 2012<br />11am-1pm</td>
+             <td>sat, 5 may 2012<br />11am-1pm</td>
+             <td>sat, 19 may 2012<br />11am-1pm</td>
+        </tr>
+        <tr>
+            <th>found poems &apm: outsider poetry</th>
+            <td>sat, 9 jun 2012<br />11am-2pm</td>
+            <td>sat, 7 jul 2012<br />11am-2pm</td>
+            <td>sat, 21 jul 2012<br />11am-2pm</td>
+        </tr>
+        <tr class="even">
+             <th>natural death: an exploration</th>
+             <td>sat, 4 aug 2012<br />11am-4pm</td>
+             <td>sat, 8 sep 2012<br />11am-4pm</td>
+             <td>sat, 15 sep 2012<br />11am-4pm</td>
+        </tr>
+    </table>
+    <form action="./boxes.html">
+        <fieldset>
+            <legend>register your interest</legend>
+            <p><label class="title" for="name">your name:</label>
+            <input type="text" name="name" id="name" /><br />
+            <label class="title" for="email">your email:</label>
+            <input type="text" name="email" id="email"/>
+            </p>
+            <p><label for="location" class="title">your closet center:</label>
+            <select name="location" id="location">
+                <option value="ny">new york</option>
+                <option value="il">chicago</option>
+                <option value="ca">san fransico</option>
+            </select></p>
+            <p>
+            <span class="title">are you a member</span>
+            <label><input type="radio" name="member" value="yes"/>yes</label>
+            <label><input type="radio" name="member" value="no"/>no</label></p>
+        </fieldset>
+        <div class="submit"><input type="submit" value="register"/></div>
+    </form>
+</body>
+</html>

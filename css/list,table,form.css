@@ -1,0 +1,90 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #666;
+    background-color: #f8f8f8;
+    font-size: 90%;
+    text-transform: capitalize;
+}
+table{
+    border-spacing: 0px;
+}
+li{
+    list-style-type: square;
+    line-height: 1.6em;
+}
+th,td{
+    padding-top: 5px;
+    padding-right: 30px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    margin: 0px;
+    font-size: 90%;
+    border-spacing: 0px;
+}
+th,td{
+    background-color: #e0e9f0;
+    border-top: 1px solid #f1f8fe;
+    border-right: 1px solid #cbd2d8;
+    border-bottom: 1px solid #cbd2d8;
+    text-align: left;
+      }
+      tr.head th{
+        color: #fff;
+        background-color: #90b4d6;
+        border-top:1px solid #90b4d6;
+        border-bottom: 2px solid #547ca0;
+        border-right: 1px solid #749abe;
+        text-shadow: -1px -1px 1px #666;
+        text-align: center;
+        letter-spacing: 0.15em;
+      }
+      td{
+        text-shadow: 1px 1px 1px #fff;
+      }
+      tr.even td,tr.even th{
+        background-color: #e8eff5;
+      }
+      fieldset{
+        width: 310px;
+        background-color: #ffffff;
+        border: 1px solid #d6d6d6;
+        margin-top: 20px;
+        line-height: 1.6em;
+      }
+      legend{
+        font-style: italic;
+        color: #666666;
+      }
+      input[type="text"] {
+        width: 120px;
+           border: 1px solid #d6d6d6;
+           padding: 2px;
+           outline: none;
+      }
+      input[type="text"]:focus, input[type="text"]:hover{
+        background-color: #d0e2f0;
+        border: 1px solid #999;
+      }
+      input[type="submit"] {
+        color: #ffffff;
+        border: 1px solid #006633;
+        background-color: #009966;
+        padding: 5px;
+        margin-top: 10px;
+        border-radius: 5px;
+      }
+      input[type="submit"]:hover{
+        border: 1px solid #006633;
+        background-color: #00cc33;
+        color: #ffffff;
+        cursor: pointer;
+      }
+      .title{
+        float: left;
+        width: 160px;
+        clear: left;
+      }
+      .submit{
+        width: 310px;
+        text-align: right;
+      }
